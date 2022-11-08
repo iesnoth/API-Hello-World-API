@@ -12,4 +12,5 @@ let languageSchema = new Schema({
 
 })
 
-module.exports = languageSchema
+const Language = mongoose.model('Language',languageSchema)
+module.exports = Language
